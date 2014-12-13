@@ -1,0 +1,387 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/skrollr.js"></script>
+	<script type="text/javascript" src="../js/instafeed.min.js"></script>
+	<style type= "text/css">
+	html {
+		height:100%;
+		
+	}
+	li a {
+		text-decoration: none;
+	}
+	@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/);
+    }
+	body {
+		height: 100%;
+		margin:0;
+		padding:0;
+	
+		
+	}
+	#nav ul {
+	list-style: none;
+	
+	clear: both;
+	height: auto;
+	float: right;
+	padding-right: 523px;
+	}
+
+#nav ul li {
+	display: inline-block;
+	height: 20px;
+	margin-top: 25px;
+	font-family: latin modern mono 10 italic;
+	font-weight: regular;
+	font-style: italic;
+	font-size:15px;
+	transition: ease-in all 100ms;
+	-moz-transition: ease-in all 100ms;
+	-webkit-transition: ease-in all 100ms;
+	-o-transition: ease-in all 100ms;
+
+}
+
+
+
+
+a:link {
+	color: #000;
+}
+
+a:visited {
+	color: #000;
+}
+
+#nav a:hover {
+	color: #9ef4ee;
+	position: relative;
+	right: 1px;
+	transition: ease-in all 200ms;
+	-moz-transition: ease-in all 200ms;
+	-webkit-transition: ease-in all 200ms;
+	-o-transition: ease-in all 200ms;
+}
+
+
+#nav{
+	 
+	width: 900px;
+	height: 50px;
+	
+	position: fixed;
+	z-index:99;
+	
+}
+
+
+
+	
+
+
+	#navbar {
+		position: relative;
+		float: right;
+		left:780px;
+		margin-top: 20px;
+		
+	}
+	ul {
+		margin:0;
+		padding:0;
+		position: relative;
+		
+		
+	}
+	
+	
+	 ul li {
+		list-style:none;
+		overflow:hidden;
+		height:600px;
+		
+	}
+	
+	.parallax-background {
+		height:700px;
+		background-repeat: no-repeat;
+		
+		
+    	 
+		
+	}
+	#meglogo {
+		
+		height: 55px;
+		width: 461px;
+		position: absolute;
+		left: 35px;
+		margin-top: 23px;
+		float: left;
+	}
+	#llyaLogo {
+		width: 1001px;
+		height: 91;
+		position: absolute;
+		left: 100px;
+		top: 100;
+	}
+	
+	#quote {
+		position: absolute;
+		height: 450px;
+		width: 350px;
+		left: 40%;
+		top: 170px;
+		font-size: 20px;
+		font-family: latin modern mono;
+		
+		
+	}
+	#shadowBox{
+		position: absolute;
+		background-color: black;
+		height: 250px;
+		width: 100%;
+		bottom: 160px;
+		
+	}
+	#box1{
+		
+		position: absolute;
+		height:169px;
+		width: 169px;
+		bottom: 180px;
+		left: 210px;
+		z-index: 99;
+	}
+	#box2{
+		
+		position: absolute;
+		height:169px;
+		width: 169px;
+		bottom: 180px;
+		left: 520px;
+		z-index: 99;
+	}
+	#box3{
+		
+		position: absolute;
+		height:169px;
+		width: 169px;
+		bottom: 180px;
+		left: 850px;
+		z-index: 99;
+	}
+	.boxText{
+		font-family: latin modern mono;
+		font-size: px;
+	}
+	#wed{
+		position: absolute;
+		right: 324px;
+		bottom: 350;
+	}
+	#fam{
+		position: absolute;
+		left: 249px;
+		bottom: 350;
+	}
+	#adven{
+		position: absolute;
+		right: 648px;
+		bottom: 350;
+	}
+	#instafeed{
+		position: absolute;
+		bottom: 10px;
+		left:250px;
+		height: 400px;
+		width: 800px;
+		
+	}
+	#instafeed a{
+		padding: 15px;
+	}
+	#igLabel {
+		position: absolute;
+		z-index: 404;
+		height: 40px;
+		width: 800px;
+		bottom: 450px;
+		left: 210px;
+		
+	}
+	#prouska {
+		position: absolute;
+		z-index: 202;
+		padding: 0px;
+		bottom: 25px;
+		left: 575px;
+		font-family: latin modern mono;
+		font-style: italic;
+		font-size: 20px;
+	}
+	
+	
+		.deer {
+	background-image:url("../images/IMG_5930-140rs.png");
+	background-position: 50% 100%;
+	}
+	
+	.white {
+		/*background-image:url("../sampleImg/IMG_5258-50rs.png");*/
+		background-color: white;
+		
+		
+	}
+	.green {
+		background-image:url("../images/IMG_5369-161rs.png");
+		background-position: 50% 150%;
+
+	}
+	.deer {
+	background-image:url("../images/IMG_5930-140rs.png");
+	background-position: 50% 100%;
+	}	
+	</style>
+	
+	</head>
+	<body>
+		<div class="header">
+			<div id="nav">
+						<!-- nav header -->
+						<div id="meglogo"><img src="../images/meglogo.png"alt="kitsap photographer"/></div>
+						<ul id="navbar">
+							<li><a href="http://www.photomegs.com/blog">blog</a></li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li><a href="http://www.photomegs.com/aboutme" >about me</a></li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li><a href="http://www.photomegs.com/information">information</a></li>
+							<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li><a href="http://photomegs.com/information/#ShowHidden">connect</a></li>
+							
+						</ul>
+			</div>
+			</div>
+		
+		<ul class="parallax">
+			<li>
+				<div class="parallax-background deer">
+					<div id="quote" data-0="opacity:1;" data-250="opacity:0;"><p>“The camera makes you forget you’re there. It’s not like you are hiding but you forget, you are just looking so much.” </p>
+					<p>~annie leibovitz</p></div>
+				</div>
+				
+			</li>
+			<li>
+				<div class="parallax-background white">
+				<div class="boxText">
+					<p id="wed" data-350="opacity:0;" data-700="opacity:1;">wedding</p>
+					<p id="fam" data-350="opacity:0;" data-700="opacity:1;">family</p>
+					<p id="adven" data-350="opacity:0;" data-700="opacity:1;">adventure</p>
+				</div>
+				<div id="box1" data-350="left:100%;" data-590="left:15%;"><a href="http://photomegs.com/category/family-2/"><img src="../images/IMG_9341sq169.png" alt="kitsap photography"/></a></div>
+				<div id="box2" data-350="left:100%;" data-590="left:40%;"><a href="http://photomegs.com/category/my-adventure/"><img src="../images/IMG_9341sq169.png" alt="kitsap photography"/></a></div>
+				<div id="box3" data-350="left:100%;" data-590="left:66%;" ><a href="http://photomegs.com/category/wedding/"><img src="../images/IMG_9341sq169.png" alt="kitsap photography"/></a></div>
+					<div id="llyaLogo" data-250="opacity:0;" data-600="opacity:1;"><img src="../images/		LLYAlogo.png" alt="kitsap photography"/></div>
+				
+				<di id="shadowBox"data-350="opacity:0;" data-700="opacity:.3;"></div> 
+				 
+				
+				</div>
+				
+			</li>
+			<li>
+				<div class="parallax-background green"></div>
+				
+			</li>
+			<li>
+				<div class="parallax-background deer"></div>
+				<div id="igLabel"><img src="../images/recentpost1.png"/></div>
+				<div id="instafeed"></div>
+				<p id="prouska">@prouska</p>
+			</li>
+		</ul>
+		
+		
+		<script type="text/javascript" src="../js/jquery.js"></script>
+			
+		<script>
+			(function($) {
+			
+				var $container = $(".parallax");
+				var $divs = $container.find("div.parallax-background");
+				var thingBeingScrolled = document.body;
+				var liHeight = $divs.eq(0).closest("li").height();
+				var diffHeight = $divs.eq(0).height() - liHeight;
+				var len = $divs.length;
+				
+				var i,len,div,li,offset,scroll,top,transform;
+					
+				var offsets = $divs.get().map(function(div,d) {
+					return $(div).offset();
+				});	
+				
+				
+				var render = function() {
+					
+					top = thingBeingScrolled.scrollTop;
+					
+					
+					for(i=0;i<len;i++){
+					
+						
+					
+						//get one div
+						
+						div = $divs[i];
+						
+						offset = top - offsets[i].top;
+						
+						// calculate the amount to scroll
+						scroll = ~~(offset / liHeight * diffHeight);
+						
+						transform = "translate3d(0px, "+ scroll+ "px, 0px)";
+						
+						//apply the scroll amount
+						div.style.webkitTransform = transform;
+					
+					}
+					
+					};
+			
+				(function loop(){
+  					requestAnimationFrame(loop);
+  					render();
+  				})();
+
+		
+			})(jQuery);
+		</script>
+		<script type="text/javascript">
+					var s = skrollr.init({
+					
+					});
+				</script>
+		<script type="text/javascript">
+		var userFeed = new Instafeed({
+			get: 'user',
+			limit: 8,
+			userId: 1716713,
+			accessToken: '1716713.467ede5.325f896946d04fd0970298a71508a44b',
+			useHttp: true,
+			template: '<a href="{{link}}" target="_blank"><img src="{{image}}"/></a>'
+		});
+		userFeed.run();
+		</script>
+		<script type="text/javascript" src="../js/skrollr.min.js"></script>	
+		
+   
+	</body>
+	
+
+</html>
